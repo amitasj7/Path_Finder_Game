@@ -28,7 +28,7 @@ class Gui():
         pygame.init()
         self.win = pygame.display.set_mode((self.WIDTH, self.WIDTH))
         self.clock = pygame.time.Clock()
-        pygame.display.set_caption("Pathfinding Algorithms - James Robinson")
+        pygame.display.set_caption("Pathfinding (q = DFS, w = BFS, e = Dijikstra, r = A*) - Amit Sisodiya")
 
     # main function for gui
     def main(self, running=False):
